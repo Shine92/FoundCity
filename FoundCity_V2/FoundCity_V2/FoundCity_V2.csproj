@@ -134,6 +134,11 @@
     <Content Include="assets\Simon\css\font-awesome.min.css" />
     <Content Include="assets\Simon\fonts\fontawesome-webfont.svg" />
     <Content Include="assets\Simon\images\bg01.png" />
+    <Content Include="assets\Simon\images\pic01.jpg" />
+    <Content Include="assets\Simon\images\pic03.jpg" />
+    <Content Include="assets\Simon\images\pic04.jpg" />
+    <Content Include="assets\Simon\images\pic05.jpg" />
+    <Content Include="assets\Simon\js\Default.js" />
     <Content Include="assets\Simon\js\jquery.min.js" />
     <Content Include="assets\Simon\js\main.js" />
     <Content Include="assets\Simon\js\skel.min.js" />
@@ -162,6 +167,7 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\MemberController.cs" />
     <Compile Include="Controllers\PetController.cs" />
     <Compile Include="Controllers\RadarController.cs" />
     <Compile Include="Global.asax.cs">
@@ -183,6 +189,7 @@
     <Content Include="fonts\glyphicons-halflings-regular.eot" />
     <Content Include="scripts\jquery-1.10.2.min.map" />
     <Content Include="Views\Shared\_LayoutIndex.cshtml" />
+    <Content Include="Views\Member\Index.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

@@ -41,16 +41,6 @@ a img {
 	border: none;
 }
 
-hr { 
-    display: block;
-    margin-top: 0.5em;
-    margin-bottom: 0.5em;
-    margin-left: auto;
-    margin-right: auto;
-    border-style: inset;
-    border-width: 1px;
-} 
-
 	.image
 	{
 		display: inline-block;
@@ -221,10 +211,11 @@ hr {
 	background: #0F0F0F;
 }
 
-.container {
+/*.container {
 	width: 100%;
+    height:100%;
 	margin: 0px auto;
-}
+}*/
 
 .clearfix {
 	clear: both;
@@ -368,7 +359,8 @@ hr {
 	position: relative;
 	overflow: hidden;
 	padding: 1em 0em 5em 0em;
-    height:1000px;
+    height:auto;
+    background: #e6e6e6;
 }
 
 /** CONTENT */
@@ -383,10 +375,11 @@ hr {
     padding:16px;
     text-align: center;
     color:white;
-    margin-left:10px;
+    margin:0 0 0 16px;
     width:150px;
     height:60px;
     background-color:#4d4d4d;
+    box-shadow: 1px 3px 10px #888888;
 }
 
 /*********************************************************************************/
@@ -417,7 +410,7 @@ hr {
 	#copyright
 	{
 		overflow: hidden;
-		padding: 5em 0em;
+		padding: 2em 0em;
 		text-align: center;
         background: #333333;
 
@@ -618,8 +611,68 @@ hr {
 		padding-left: 40px;
 	}
 
+/*********************************************************************************/
+/* Simon Style                                                                   */
+/*********************************************************************************/
+#decoration{
+    margin:3px 0 0 16px;
+    height:4px;
+    width:595px;
+    background-color: #8c8c8c;
+}
 
+.section_items{
+    margin:10px 3px 0 0;
+}
 
+.panel{
+    border-radius: 0px;
+}
+
+.panel-body{
+    
+}
+
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover{
+    color: #eee;
+    cursor: default;
+    background-color: #777;
+    border: 0px solid #dff0d8;
+    border-bottom-color: transparent;
+}
+
+#memberTab .nav-tabs>li>a{
+    margin-right: 2px;
+    line-height: 1.42857143;
+    border: 1px solid transparent;
+    border-radius: 0 0 0 0;
+    color: #f5f5f5;
+    background-color: #555;
+}
+
+#memberTab .nav-tabs>li>a:hover{
+    background-color: #7b7b7b;
+}
+
+#memberTab .tab-content{
+    padding: 10px 0;
+    width:100%;
+    height:auto;
+}
+
+.section_memberItems{
+    background-color:white;
+    width:100%;
+    height:auto;
+}
+
+.member_profile{
+    width:600px;
+    height:auto;
+    background-color:bisque;
+    margin:auto;
+    border:1px solid black;
+}
 
 
 
