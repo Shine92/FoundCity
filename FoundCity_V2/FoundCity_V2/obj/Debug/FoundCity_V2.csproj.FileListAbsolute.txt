@@ -372,3 +372,4 @@ D:\simon\github\FoundCity\FoundCity_V2\FoundCity_V2\bin\zh-Hant\System.Web.Http.
 D:\simon\github\FoundCity\FoundCity_V2\FoundCity_V2\bin\zh-Hant\System.Web.Http.WebHost.resources.dll
 D:\simon\github\FoundCity\FoundCity_V2\FoundCity_V2\obj\Debug\FoundCity_V2.dll
 D:\simon\github\FoundCity\FoundCity_V2\FoundCity_V2\obj\Debug\FoundCity_V2.pdb
+D:\simon\github\FoundCity\FoundCity_V2\FoundCity_V2\obj\Debug\FoundCity_V2.csprojResolveAssemblyReference.cache

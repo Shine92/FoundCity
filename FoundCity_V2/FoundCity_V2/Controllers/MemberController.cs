@@ -35,5 +35,10 @@ namespace FoundCity_V2.Controllers
             return View();
         }
         #endregion
+        #region 忘記密碼
+        public ActionResult Forget() {
+            return View();
+        }
+        #endregion
     }
 }
