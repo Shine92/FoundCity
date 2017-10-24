@@ -191,6 +191,10 @@
     <Content Include="scripts\jquery-1.10.2.min.map" />
     <Content Include="Views\Shared\_LayoutIndex.cshtml" />
     <Content Include="Views\Member\Index.cshtml" />
+    <Content Include="Views\Member\Basic.cshtml" />
+    <Content Include="Views\Member\Modify.cshtml" />
+    <Content Include="Views\Member\Login.cshtml" />
+    <Content Include="Views\Member\Register.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

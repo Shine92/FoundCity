@@ -1,8 +1,8 @@
 ﻿
 @{
     Layout = "~/Views/Shared/_LayoutIndex.cshtml";
-    //Layout = null;
 }
+
 <div id="page">
     <div id="memberTab" class="container">
         <ul class="nav nav-tabs">
@@ -15,37 +15,31 @@
         </ul>
 
         <div class="tab-content">
-            <div id="basic" class="tab-pane fade in section_memberItems">
+            <div id="modify" class="tab-pane fade in section_memberItems">
                 <div id="" class="member_profile">
                     <form class="form-horizontal" action="">
                         <div class="form-group">
-                            <label class="control-label col-sm-3" for="FisrName">姓:</label>
+                            <label class="control-label col-sm-3" for="FormerPwd">舊密碼:</label>
                             <div class="col-sm-7">
-                                <input type="text" class="form-control" id="FisrName" placeholder="" name="FisrName">
-                            </div>
-                            <div class="col-sm-1 required">
-                               必填
-                            </div>
-                        </div>
-                        <div class="form-group">
-                            <label class="control-label col-sm-3" for="FisrName">名:</label>
-                            <div class="col-sm-7">
-                                <input type="text" class="form-control" id="LastName" placeholder="" name="LastName">
+                                <input type="password" class="form-control" id="FormerPwd" placeholder="" name="FormerPwd">
                             </div>
                             <div class="col-sm-1 required">
                                 必填
                             </div>
                         </div>
                         <div class="form-group">
-                            <div class="col-sm-7 col-sm-offset-3">
-                                <label class="radio-inline"><input type="radio" name="optradio">男性</label>
-                                <label class="radio-inline"><input type="radio" name="optradio">女性</label>
+                            <label class="control-label col-sm-3" for="NewPwd">新密碼:</label>
+                            <div class="col-sm-7">
+                                <input type="password" class="form-control" id="NewPwd" placeholder="" name="NewPwd">
+                            </div>
+                            <div class="col-sm-1 required">
+                                必填
                             </div>
                         </div>
                         <div class="form-group">
-                            <label class="control-label col-sm-3" for="Telephone">連絡電話:</label>
+                            <label class="control-label col-sm-3" for="CheckNewPwd">確認新密碼:</label>
                             <div class="col-sm-7">
-                                <input type="text" class="form-control" id="Telephone" placeholder="" name="Telephone">
+                                <input type="password" class="form-control" id="CheckNewPwd" placeholder="" name="CheckNewPwd">
                             </div>
                             <div class="col-sm-1 required">
                                 必填
@@ -64,4 +58,3 @@
         </div>
     </div>
 </div>
-
